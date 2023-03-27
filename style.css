@@ -147,9 +147,15 @@ span{
     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.699);
     border-radius: 5px;
 }
+footer{
+    background-color:#2aa580 ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
 .rodape{
-    background-color:#2aa580 ;
+    
     color: white;
     display: flex;
     justify-content: space-around;
