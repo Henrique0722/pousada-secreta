@@ -136,6 +136,11 @@ span{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.sobre .filhos-sobre:hover{
+    box-shadow: 5px 5px 7px #2aa580cc;
+    transition: .3s;
+    translate: -5px -5px;
+}
 .sobre img{
     height: 70%;
     width: 30%;
