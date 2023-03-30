@@ -70,7 +70,22 @@ span{
     border: 1px solid white;
 
 }
-
+.lista{
+    text-align: justify;
+}
+.lista h3{
+    text-align: center;
+}
+.lista ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: circle;
+}
+.lista ul li{
+    margin: 10px;
+}
 .quartos{
     margin: auto;
     text-align: center;
@@ -87,13 +102,12 @@ span{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 3px;
     
 }
 .img-quartos img{
     height: 170px;
     margin: 0;
-    
+    width: 300px;
     
 }
 .img-quartos img:hover{
@@ -108,7 +122,7 @@ span{
 }
 .img-quartos div{
     border-bottom: 2px solid #328d61 ;
-    margin: 15px;
+    margin: 5px;
 }
 .rota{
     text-align: center;
